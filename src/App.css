@@ -10,7 +10,7 @@
 .title {
   font-size: 85px;
   color: #FFF;
-  animation: flipTitle 2s;
+  animation: flipTitle 1s;
 }
 
 @keyframes flipTitle {
@@ -77,6 +77,10 @@
 .main span {
   line-height: 2;
 }
+
+.containerInput input {
+  text-align: center;
+} 
 
 @media (max-width: 720px) {
   .title {
